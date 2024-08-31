@@ -1,0 +1,216 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/videos.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="search">
+        <!--To create a tooltip place an absolute element inside a relative element-->
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="videos-icon" src="icons/upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-container">
+          <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="current-user-picture" src="icons/profile.webp">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+        <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="channel-pictures/cover1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-1.jpeg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+      
+              <p class="video-author">Marques Brownlee</p>
+        
+              <p class="video-stats">4.2M views &#183; 2 years ago</p>
+            </div>
+          </div>
+        
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/cover2.webp">
+          <div class="video-time">2:00:33</div>
+          </div>
+          
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-2.jpg">
+            </div>
+            
+            <div class="video-info">
+              <p>2HR STUDY WITH MEㅣpomodoro 50/10, fire crackling sound, countdown timer</p>
+        
+              <p class="video-author">yulma</p>
+          
+              <p class="video-stats">27K views &#183; 2 months ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="channel-pictures/cover3.webp">
+            <div class="video-time">3:01:01</div>
+          </div>
+          
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-3.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">3-Hour Study with Me / Painted sky / Relaxing Lo-Fi / Pomodoro 50-10 / Day 154</p>
+      
+              <p class="video-author">Sean Study</p>
+        
+              <p class="video-stats">83K views &#183; 3 weeks ago</p>
+            </div>
+          </div>
+        
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/cover4.webp">
+          <div class="video-time">12:10</div>
+          </div>
+          
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-4.jpg">
+            </div>
+            
+            <div class="video-info">
+              <p>Italian Phrases To TRAVEL (TOP 25 Phrases You Need in Italian)</p>
+        
+              <p class="video-author">Learn Italian with Teacher Stefano</p>
+          
+              <p class="video-stats">377K views &#183; 2 years ago</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="channel-pictures/cover5.webp">
+            <div class="video-time">59:56</div>
+          </div>
+          
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-5.jpg">
+            </div>
+    
+            <div class="video-info">
+              <p class="video-title">Marty Lobdell - Study Less Study Smart</p>
+      
+              <p class="video-author">PierceCollegeDist11</p>
+        
+              <p class="video-stats">22M views &#183; 12 years ago</p>
+            </div>
+          </div>
+        
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+          <img class="thumbnail" src="channel-pictures/cover6.webp">
+          <div class="video-time">14:14</div>
+          </div>
+          
+    
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel-6.jpg">
+            </div>
+            
+            <div class="video-info">
+              <p>How I Tricked My Brain To Like Doing Hard Things (dopamine detox)</p>
+        
+              <p class="video-author">Better Than Yesterday</p>
+          
+              <p class="video-stats">25M views &#183; 3 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

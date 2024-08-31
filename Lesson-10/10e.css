@@ -1,0 +1,75 @@
+.profile{
+  width: 90px;
+  height: 150px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  display: inline-block;
+  margin-right: 15px;
+}
+.profile-pic{
+  display: block;
+  margin-bottom: 4px;
+  width: 90px;
+  height: 100px;
+  object-fit: cover;
+}
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3px;
+}
+.name{
+  font-weight: bold;
+  font-size: 8px;
+  margin-bottom: 0;
+}
+.mutual-friends{
+  font-size: 6px;
+  color: rgb(125, 125, 125);
+  margin-bottom: 3px;
+  margin-left: 3px;
+}
+.add-friend-button{
+  color: white; 
+  font-size: 8px;
+  background-color: rgb(63, 125, 240);
+  border: none;
+  border-radius: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 3px;
+  margin-bottom: 4px;
+}
+.follower-pic,
+.mutuals{
+  display: inline-block;
+}
+.mutuals{
+  margin-top: 0;
+  vertical-align: middle;
+  margin-left: 0;
+  margin-top: 0;
+}
+.follower-pic{
+  width: 15px;
+  height: 15px;
+  vertical-align: top;
+  margin-left: 3px;
+  margin-right: 0;
+  margin-top: 0;
+}
+.follower{
+  width: 12px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.paragraph-row{
+  margin-top: 0;
+  
+}
+.thumbnail-row{
+  margin-bottom: 1px;
+}

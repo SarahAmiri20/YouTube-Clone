@@ -1,0 +1,25 @@
+p{
+  font-family: Arial;
+}
+.container{
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200,200,200);
+  border-radius: 6px;
+  width: 300px;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 12px;
+}
+.notifications{
+  color: white;
+  background-color: rgb(49, 109, 245);
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}

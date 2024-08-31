@@ -1,0 +1,20 @@
+div{
+  font-family: Arial;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+.profile-pic{
+  object-fit: cover;
+  object-position: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.name{
+  font-weight: bold;
+}
